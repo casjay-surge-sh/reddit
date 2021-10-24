@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import SubReddit from '../views/SubReddit.vue';
+import SubReddit from '@/views/SubReddit.vue';
 
 const routes = [
   {

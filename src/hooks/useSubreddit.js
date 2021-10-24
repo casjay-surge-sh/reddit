@@ -1,6 +1,6 @@
 import { reactive, watch } from 'vue';
 
-import API from '../lib/API';
+import API from '@/lib/API';
 
 export default function useSubreddit(subreddit) {
   const state = reactive({
